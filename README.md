@@ -10,6 +10,7 @@ Usage:  ./linein-splitter [TIME] [FILE TYPE]
   FILE TYPE: use --ogg for oggVorbis and --mp3 for mp3 files
   
 To kill all instances: ./linein-splitter --kill
+
 Edit the linein-splitter file and change 'default config' to change other options
 
 To use this script you will need to install vorbis-tools, sox and lame:

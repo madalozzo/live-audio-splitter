@@ -4,8 +4,11 @@ live-audio-splitter
 Shell script to create audio files from line-in, compressed in mp3 or ogg with configurable quality, size and duration.
 
 Usage:  ./linein-splitter [TIME] [FILE TYPE]
+
   TIME: Time for each record in milisseconds
+  
   FILE TYPE: use --ogg for oggVorbis and --mp3 for mp3 files
+  
 To kill all instances: ./linein-splitter --kill
 Edit the linein-splitter file and change 'default config' to change other options
 
